@@ -1,87 +1,23 @@
 # Decentralized Login System
 
 ## Project Description
-The Decentralized Login System is a secure and transparent method for managing project details using blockchain technology. This contract enables users to securely create, update, and retrieve project information directly on the Ethereum network.
+The Decentralized Login System is a blockchain-based platform designed to securely store and manage project details. By leveraging Ethereum's smart contract technology, this system ensures data integrity, prevents tampering, and enhances transparency.
 
-## Contract Address
-**0xYourContractAddressHere**
+## Project Vision
+Our vision is to provide a decentralized, tamper-proof system for managing critical project information, ensuring that updates are securely recorded and accessible to authorized parties.
 
-## Key Features
-- **Project Creation:** Users can create a project with a title and description securely stored on the blockchain.
-- **Project Retrieval:** Provides a public function to view project details.
-- **Project Update:** Allows updating the project title and description with secure blockchain immutability.
-
-## Smart Contract Code
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.9;
-
-contract DecentralizedLoginSystem {
-
-    struct Project {
-        string title;
-        string description;
-    }
-
-    Project public project;
-
-    constructor(string memory _title, string memory _description) {
-        project = Project(_title, _description);
-    }
-
-    function getProjectDetails() public view returns (string memory, string memory) {
-        return (project.title, project.description);
-    }
-
-    function updateProjectDetails(string memory _title, string memory _description) public {
-        project.title = # Decentralized Login System
-
-## Project Description
-The Decentralized Login System is a secure and transparent method for managing project details using blockchain technology. This contract enables users to securely create, update, and retrieve project information directly on the Ethereum network.
-
-## Contract Address
-**0xYourContractAddressHere**
+## Future Scope
+- Integration with decentralized applications (dApps) to expand its usability.
+- Implementing role-based access control for better security.
+- Adding support for IPFS (InterPlanetary File System) to store additional project resources.
+- Developing a user-friendly frontend interface for easy interaction with the smart contract.
 
 ## Key Features
-- **Project Creation:** Users can create a project with a title and description securely stored on the blockchain.
-- **Project Retrieval:** Provides a public function to view project details.
-- **Project Update:** Allows updating the project title and description with secure blockchain immutability.
-
-## Smart Contract Code
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.9;
-
-contract DecentralizedLoginSystem {
-
-    struct Project {
-        string title;
-        string description;
-    }
-
-    Project public project;
-
-    constructor(string memory _title, string memory _description) {
-        project = Project(_title, _description);
-    }
-
-    function getProjectDetails() public view returns (string memory, string memory) {
-        return (project.title, project.description);
-    }
-
-    function updateProjectDetails(string memory _title, string memory _description) public {
-        project.title = Decentralized Login System;
-        project.description = A blockchain-based login system that removes reliance on centralized authentication.;
-    }
-}
-```
-;
-        project.description = A blockchain-based login system that removes reliance on centralized authentication.;
-    }
-}
-```
+- **Project Creation:** Users can securely create a project with a title and description stored on the blockchain.
+- **Project Retrieval:** Users can access project details through a dedicated function.
+- **Project Update:** Enables authorized users to update project information securely on the blockchain.
+- **Data Integrity:** Blockchain immutability ensures the project's data remains untampered and transparent.
 
 ## Contract Address
 0xC4235c200e07Ca19Eb9ec675CFF58B71D30E1B1a
 ![image](https://github.com/user-attachments/assets/26af1ce3-809e-469e-9473-1dc4964a4d10)
-
